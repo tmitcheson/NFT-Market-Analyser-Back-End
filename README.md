@@ -1,15 +1,6 @@
-## NOPE this is a flask app now. all hail flask
+## NFT Market Analyser Back End
 
-# Python: Getting Started
+This repository is the back end functionality for an NFT price prediction model.
 
-A barebones Django app, which can easily be deployed to Heroku.
+Transactions were extracted from the blockchain and each collection (Cryptokittens, BoredApes, etc.) were stored in custom objects in pickle files. Random forest regression was eventually proved to be the most accurate ML method, and final accuracies with a 10-15% error were eventually settled on.
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out for instructions on how to deploy this app to Heroku and also run it locally.
-
-Alternatively, you can deploy it using this Heroku Button:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
