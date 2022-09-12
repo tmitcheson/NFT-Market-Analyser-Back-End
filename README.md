@@ -7,3 +7,4 @@ The functionality of the files displayed here include, but are not limited to:
 - Data preprocessing, cleaning and storing of each collection using OOP in the 'collection_class.py' file
 - A random forest regression ML model which could predict the price of NFTs with an impressive error of between 10-15%
 
+Written in **Python** with extensive use of **Pandas** and **Sci-kit Learn**. Back end communication with the front end achieved through **Flask**.
